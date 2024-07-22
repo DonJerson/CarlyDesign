@@ -20,6 +20,12 @@
   .onDesktop {
     display: none;
   }
+  selectionCard {
+    display: flex;
+
+    width: 110px;
+    height: 70px;
+  }
 }
 
 @media (min-width: 993px) {
