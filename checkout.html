@@ -5,9 +5,9 @@
 	<meta name="theme-color" content="#000000" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="El mejor mercado para alquilar vehículos"  />
-
+l
     <title>Carly Design</title>
-	
+
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link href="css/fonts.css" rel="stylesheet" type="text/css" />
     <link href="css/layout.css" rel="stylesheet" type="text/css" />
@@ -15,6 +15,17 @@
   </head>
 
   <body>
+	<modal>
+				  <modalcard>
+		<h5>Are you sure you want to book this trip?</h5>
+		<row class="jcc" style="column-gap: 16px;">
+			<squareButton class="redButton pc">No, go back</squareButton>
+		  <squareButton class="greenButton">Yes, proceed with payment</squareButton>
+		
+		</row>
+	  </modalcard>
+					
+	</modal>
     <navbar class="container-fluid navbar jcb aic">
       <h3 class="pc">Carly</h3>
       <p class="pc">Login</p>
@@ -140,9 +151,15 @@
               <h6 class="mt-1">5.0 (56 Trips)</h6>
 
               <row class="my-l jcb">
-                <h5>Weds, Jul 4</h5>
+       <column>         <h5>Weds, Jul 4</h5>
+	
+		<h6>10:00 AM</h6>
+	</column>
                 <h5>=></h5>
+				<column>
                 <h5>Sat, Jul 26</h5>
+				<row class="jce"><h6>10:00 AM</h6></row>
+			</column>
               </row>
 
               <line></line>
@@ -247,13 +264,17 @@
 	
 	        <h6 class="mt-1">5.0 (56 Trips)</h6>
 
-			<row>
-				<row class="my-l jcb" style="width: 250px">
-				  <h5>Weds, Jul 4</h5>
-				  <h5>=></h5>
-				  <h5>Sat, Jul 26</h5>
-				</row>
-			  </row>
+			<row class="my-l jcb" style="width: 250px;">
+				<column>         <h5>Weds, Jul 4</h5>
+			 
+				 <h6>10:00 AM</h6>
+			 </column>
+						 <h5>=></h5>
+						 <column>
+						 <h5>Sat, Jul 26</h5>
+						 <row class="jce"><h6>10:00 AM</h6></row>
+					 </column>
+					   </row>
 			</column>
 			<selectionCard class="relative">
                 <profileRatedBox
@@ -401,5 +422,32 @@
               </row>
       </mobilewrapper>
     </container>
+
+	<script>
+
+		// Get the modal
+		var modal =document.querySelector("body > modal")
+
+
+
+		var redButton = 	document.querySelector("body > modal > modalcard > row > squarebutton.redButton.pc")
+
+
+	
+		// When the user clicks on <span> (x), close the modal
+			console.log("boton rojo", redButton)
+			redButton.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+
+		
+	</script>
   </body>
 </html>
