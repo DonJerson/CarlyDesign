@@ -1,7 +1,19 @@
 /* MOBILE QUERIES */
 
 @media (max-width: 768px) {
-  mobilewrapper {
+  .redButton {
+    font-size: 12px;
+  }
+  .greenButton {
+    font-size: 12px;
+  }
+  modalcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10em;
+    padding: 16px;
+    height: 90vh;
   }
   .onMobile {
     display: flex;
