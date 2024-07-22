@@ -1,0 +1,26 @@
+/* MAIN CSS */
+
+/* ELEMENTS */
+body {
+  margin: 0px;
+  padding: 0;
+}
+line {
+  display: inline-flex;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-color: #6666;
+  border-bottom-style: solid;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+.pc {
+  cursor: pointer;
+}

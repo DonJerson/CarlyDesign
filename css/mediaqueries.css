@@ -1,0 +1,39 @@
+/* MOBILE QUERIES */
+
+@media (max-width: 768px) {
+  mobilewrapper {
+  }
+  .onMobile {
+    display: flex;
+  }
+}
+
+@media (min-width: 540px) {
+}
+
+@media (min-width: 769px) {
+}
+
+/* DESKTOP QUERIES */
+
+@media (max-width: 992px) {
+  .onDesktop {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .onMobile {
+    display: none;
+  }
+  pagewrapper {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    max-width: 830px;
+  }
+  .onDesktop {
+    display: flex;
+  }
+}
