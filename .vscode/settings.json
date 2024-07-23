@@ -13,5 +13,6 @@
     // extension name : html
     "*.ejs": "html",
     "*.js": "html"
-  }
+  },
+  "editor.wordWrap": "on"
 }
