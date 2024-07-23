@@ -66,6 +66,9 @@ modalcard {
 .shadow {
   box-shadow: 0px 2px 5px 0px #a1a1a166;
 }
+.alignText {
+  text-align: center;
+}
 iconrow {
   display: flex;
   align-items: center;
