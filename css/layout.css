@@ -63,6 +63,60 @@ modalcard {
 }
 
 /* LAYOUT CSS */
+.shadow {
+  box-shadow: 0px 2px 5px 0px #a1a1a166;
+}
+iconrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 32px;
+  gap: 8px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  align-items: center;
+}
+iconrow:hover {
+  background-color: #cccccc;
+  box-shadow: 0px 2px 5px 0px #d1d1d166;
+}
+hover {
+  display: none;
+  height: 500px;
+  width: 360px;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  box-shadow: 0px 2px 5px 0px #d1d1d166;
+  border-radius: 8px;
+}
+profiletab {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  width: 68px;
+  box-sizing: border-box;
+  height: 32px;
+}
+profiletab:hover {
+  hover {
+    display: block;
+  }
+  background-color: #f5f5f5;
+  box-shadow: 0px 2px 5px 0px #d1d1d166;
+}
+rectanglecard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  width: 750px;
+  gap: 13px;
+  border-radius: 85px;
+  box-sizing: border-box;
+  height: 56px;
+}
 bodycard {
   display: flex;
   flex-direction: column;
@@ -239,4 +293,19 @@ column {
 }
 .mt-m {
   margin-top: 16px;
+}
+.mt-sm {
+  margin-top: 12px;
+}
+.g1 {
+  gap: 4px;
+}
+.g-sm {
+  gap: 12px;
+}
+.g-m {
+  gap: 16px;
+}
+.g-l {
+  gap: 24px;
 }
