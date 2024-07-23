@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Best rent car platform in the Dominican Republic"
+    />
+    l
+    <title>Carly | Rent car</title>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <modal>
+      <modalcard>
+        <h5>Are you sure you want to book this trip?</h5>
+        <row class="jcc" style="column-gap: 16px">
+          <squareButton class="redButton pc">No, go back</squareButton>
+          <squareButton class="greenButton"
+            >Yes, proceed with payment</squareButton
+          >
+        </row>
+      </modalcard>
+    </modal>
+    <navbar class="container-fluid navbar jcb aic">
+      <h3 class="pc">Carly</h3>
+      <p class="pc">Login</p>
+    </navbar>
+    <bodycard class="jcc">
+      <roundedCard>
+        <row class="jcc mt-1"> <h5>Log in or signup</h5></row>
+        <line class="my-l"></line>
+        <h3>Welcome to Carly</h3>
+        <input type="text" name="" id="" />
+        <input type="text" name="" id="" />
+        <p>texto</p>
+        <button>Continue</button>
+        <p>or</p>
+        <button>Continue with Facebook</button>
+        <button>Continue with Google</button>
+        <button>Continue with email</button>
+        <p>need help?</p>
+      </roundedCard>
+    </bodycard>
+
+    <script>
+      // Get the modal
+      var modal = document.querySelector("body > modal");
+      var bookButton = document.querySelector(
+        "body > container.jcc.onDesktop > pagewrapper > container > div.chkPanel.jcs > squarebutton.greenButton.mt-2.rounded"
+      );
+
+      var redButton = document.querySelector(
+        "body > modal > modalcard > row > squarebutton.redButton.pc"
+      );
+
+      // When the user clicks on <span> (x), close the modal
+
+      redButton.onclick = function () {
+        modal.style.display = "none";
+      };
+      bookButton.onclick = function () {
+        modal.style.display = "flex";
+      };
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
