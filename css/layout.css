@@ -85,6 +85,7 @@ iconrow:hover {
   box-shadow: 0px 2px 5px 0px #d1d1d166;
 }
 hover {
+  z-index: 2;
   display: none;
   height: 500px;
   width: 360px;
