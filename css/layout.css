@@ -219,7 +219,7 @@ column {
   transition: border-color 0.3s;
 }
 .highlight:hover {
-  border-color: rgb(46, 92, 0);
+  border-color: rgb(46, 92, 0) !important;
 }
 .wrap {
   display: flex;
