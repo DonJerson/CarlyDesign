@@ -15,6 +15,134 @@
     <link href="css/fonts.css" rel="stylesheet" type="text/css" />
     <link href="css/layout.css" rel="stylesheet" type="text/css" />
     <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      .contenedor-gris {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(224, 221, 221);
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      .guests-checking {
+        width: 150px;
+        text-align: justify;
+        height: 150px;
+        display: flex;
+        align-items: center;
+      }
+      button {
+        padding: 7px;
+        margin: 0 10px;
+        border-radius: 10px;
+        border: none;
+        width: 150px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      .buttonGris {
+        border: 1px solid black;
+      }
+      .buttonBlanco {
+        background-color: white;
+        border: 1px solid rgb(223, 223, 223);
+      }
+    </style>
+    <style>
+      .contenedor-gris {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(224, 221, 221);
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      .guests-checking {
+        width: 150px;
+        text-align: justify;
+        height: 150px;
+        display: flex;
+        align-items: center;
+      }
+      button {
+        padding: 7px;
+        margin: 0 10px;
+        border-radius: 10px;
+        border: none;
+        width: 150px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      .buttonGris {
+        border: 1px solid black;
+      }
+      .buttonBlanco {
+        background-color: white;
+        border: 1px solid rgb(223, 223, 223);
+      }
+    </style>
+    <style>
+      .card {
+        position: relative;
+        border: 1px solid black;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+      }
+      .imagen {
+        border-radius: 100px;
+        height: 60px;
+        position: absolute;
+        left: 10px;
+      }
+      .name-adress {
+        border-bottom: 1px solid gray;
+        padding: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+      }
+      .direccion {
+        text-wrap: nowrap;
+      }
+      .fechas {
+        text-wrap: nowrap;
+      }
+      span {
+        font-weight: lighter;
+      }
+      .checkings {
+        display: flex;
+        justify-content: space-between;
+      }
+      .date {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+      }
+      .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .titulos {
+        font-weight: bold;
+        font-size: larger;
+      }
+    </style>
   </head>
 
   <body>
@@ -313,120 +441,37 @@
             <p class="guests-checking">
               You don’t have any guests checking out today or tomorrow.
             </p>
-            <style>
-              .contenedor-gris {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: rgb(224, 221, 221);
-                width: 100%;
-                height: 300px;
-                border-radius: 15px;
-                margin-top: 20px;
-                padding: 20px;
-                text-align: center;
-              }
-              .guests-checking {
-                width: 150px;
-                text-align: justify;
-                height: 150px;
-                display: flex;
-                align-items: center;
-              }
-              button {
-                padding: 7px;
-                margin: 0 10px;
-                border-radius: 10px;
-                border: none;
-                width: 150px;
-              }
-              button:hover {
-                cursor: pointer;
-              }
-              .buttonGris {
-                border: 1px solid black;
-              }
-              .buttonBlanco {
-                background-color: white;
-                border: 1px solid rgb(223, 223, 223);
-              }
-            </style>
           </div>
         </row>
-        <row>
-          <div class="card">
-            <img
-              src="https://via.placeholder.com/150"
-              alt="imagen"
-              class="imagen"
-            />
-            <div class="name-adress">
-              <h2 class="titulos">Alejandra <span>5.0</span></h2>
-              <p class="direccion">Santo Domingo, Distrito Nacional</p>
-            </div>
-            <div class="checkings">
-              <h2 class="titulos">Chek in</h2>
-              <h2 class="titulos">Chek Out</h2>
-            </div>
-            <div class="date">
-              <p class="fechas">Julio 12 @ 10:00 AM</p>
-              <p class="fechas">Julio 12 @ 10:00 AM</p>
-            </div>
-            <div class="price">
-              <h2 class="titulos">$345.45 <span>paid</span></h2>
-            </div>
-
-            <style>
-              .card {
-                position: relative;
-                border: 1px solid black;
-                margin-top: 50px;
-                border-radius: 10px;
-                padding: 20px;
-                width: 300px;
-              }
-              .imagen {
-                border-radius: 100px;
-                height: 60px;
-                position: absolute;
-                left: 10px;
-              }
-              .name-adress {
-                border-bottom: 1px solid gray;
-                padding: 10px;
-                margin-left: 50px;
-                margin-bottom: 10px;
-              }
-              .direccion {
-                text-wrap: nowrap;
-              }
-              .fechas {
-                text-wrap: nowrap;
-              }
-              span {
-                font-weight: lighter;
-              }
-              .checkings {
-                display: flex;
-                justify-content: space-between;
-              }
-              .date {
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 1px solid gray;
-                padding-bottom: 10px;
-              }
-              .price {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 10px;
-              }
-              .titulos {
-                font-weight: bold;
-                font-size: larger;
-              }
-            </style>
+        <row class="my-l">
+          <div>
+            <roundedcard class="pc highlight">
+              <row>
+                <div class="relative">
+                  <img
+                    src="https://via.placeholder.com/150"
+                    alt="imagen"
+                    class="imagen relative"
+                    style="left: 0px"
+                  />
+                  <div class="name-adress">
+                    <h2 class="titulos">Alejandra <span>5.0</span></h2>
+                    <p class="direccion">Santo Domingo, Distrito Nacional</p>
+                  </div>
+                </div>
+              </row>
+              <div class="checkings">
+                <h2 class="titulos">Check in</h2>
+                <h2 class="titulos">Check Out</h2>
+              </div>
+              <div class="date">
+                <p class="fechas">Julio 12 @ 10:00 AM</p>
+                <p class="fechas">Julio 12 @ 10:00 AM</p>
+              </div>
+              <div class="price">
+                <h2 class="titulos">$345.45 <span>paid</span></h2>
+              </div>
+            </roundedcard>
           </div>
         </row>
       </pagewrapper>
@@ -446,120 +491,37 @@
             <p class="guests-checking">
               You don’t have any guests checking out today or tomorrow.
             </p>
-            <style>
-              .contenedor-gris {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: rgb(224, 221, 221);
-                width: 100%;
-                height: 300px;
-                border-radius: 15px;
-                margin-top: 20px;
-                padding: 20px;
-                text-align: center;
-              }
-              .guests-checking {
-                width: 150px;
-                text-align: justify;
-                height: 150px;
-                display: flex;
-                align-items: center;
-              }
-              button {
-                padding: 7px;
-                margin: 0 10px;
-                border-radius: 10px;
-                border: none;
-                width: 150px;
-              }
-              button:hover {
-                cursor: pointer;
-              }
-              .buttonGris {
-                border: 1px solid black;
-              }
-              .buttonBlanco {
-                background-color: white;
-                border: 1px solid rgb(223, 223, 223);
-              }
-            </style>
           </div>
         </row>
-        <row>
-          <div class="card">
-            <img
-              src="https://via.placeholder.com/150"
-              alt="imagen"
-              class="imagen"
-            />
-            <div class="name-adress">
-              <h2 class="titulos">Alejandra <span>5.0</span></h2>
-              <p class="direccion">Santo Domingo, Distrito Nacional</p>
-            </div>
-            <div class="checkings">
-              <h2 class="titulos">Chek in</h2>
-              <h2 class="titulos">Chek Out</h2>
-            </div>
-            <div class="date">
-              <p class="fechas">Julio 12 @ 10:00 AM</p>
-              <p class="fechas">Julio 12 @ 10:00 AM</p>
-            </div>
-            <div class="price">
-              <h2 class="titulos">$345.45 <span>paid</span></h2>
-            </div>
-
-            <style>
-              .card {
-                position: relative;
-                border: 1px solid black;
-                margin-top: 50px;
-                border-radius: 10px;
-                padding: 20px;
-                width: 300px;
-              }
-              .imagen {
-                border-radius: 100px;
-                height: 60px;
-                position: absolute;
-                left: 10px;
-              }
-              .name-adress {
-                border-bottom: 1px solid gray;
-                padding: 10px;
-                margin-left: 50px;
-                margin-bottom: 10px;
-              }
-              .direccion {
-                text-wrap: nowrap;
-              }
-              .fechas {
-                text-wrap: nowrap;
-              }
-              span {
-                font-weight: lighter;
-              }
-              .checkings {
-                display: flex;
-                justify-content: space-between;
-              }
-              .date {
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 1px solid gray;
-                padding-bottom: 10px;
-              }
-              .price {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 10px;
-              }
-              .titulos {
-                font-weight: bold;
-                font-size: larger;
-              }
-            </style>
+        <row class="my-l">
+          <div>
+            <roundedcard class="pc highlight">
+              <row>
+                <div class="relative">
+                  <img
+                    src="https://via.placeholder.com/150"
+                    alt="imagen"
+                    class="imagen relative"
+                    style="left: 0px"
+                  />
+                  <div class="name-adress">
+                    <h2 class="titulos">Alejandra <span>5.0</span></h2>
+                    <p class="direccion">Santo Domingo, Distrito Nacional</p>
+                  </div>
+                </div>
+              </row>
+              <div class="checkings">
+                <h2 class="titulos">Check in</h2>
+                <h2 class="titulos">Check Out</h2>
+              </div>
+              <div class="date">
+                <p class="fechas">Julio 12 @ 10:00 AM</p>
+                <p class="fechas">Julio 12 @ 10:00 AM</p>
+              </div>
+              <div class="price">
+                <h2 class="titulos">$345.45 <span>paid</span></h2>
+              </div>
+            </roundedcard>
           </div>
         </row>
       </mobilewrapper>
