@@ -47,9 +47,8 @@
   pagewrapper {
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    max-width: 830px;
+
+    max-width: 940px;
   }
   .onDesktop {
     display: flex;
