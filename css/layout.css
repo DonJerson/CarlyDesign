@@ -1,4 +1,16 @@
 /* BUTTONS*/
+largeButton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: #33d646;
+}
 
 squareButton {
   display: inline-flex;
@@ -110,16 +122,25 @@ profiletab:hover {
   background-color: #f5f5f5;
   box-shadow: 0px 2px 5px 0px #d1d1d166;
 }
+.inv {
+  border-width: 0px;
+  padding-block: 0px;
+  padding-inline: 0px;
+  outline: none;
+}
+.inv:focus-visible {
+}
+
 rectanglecard {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 13px;
+  padding-left: 24px;
   width: 750px;
   gap: 13px;
   border-radius: 85px;
   box-sizing: border-box;
-  height: 56px;
+  height: 64px;
 }
 bodycard {
   display: flex;
@@ -312,4 +333,22 @@ column {
 }
 .g-l {
   gap: 24px;
+}
+
+.my-m {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.my-sm {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.my-xs {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.my-xxs {
+  margin-bottom: 4px;
+  margin-top: 4px;
 }

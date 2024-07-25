@@ -300,37 +300,64 @@
 
     <bodycard class="jcc">
       <rectanglecard class="shadow onDesktop">
-        <row class="jcb">
-          <column
+        <row class="jcb aic">
+          <column style="width: 100%"
             ><h6>Where</h6>
-            <input type="text" name="" id="" />
+            <input
+              type="text"
+              name=""
+              id=""
+              style="margin-top: 6px"
+              class="inv"
+              placeholder="City, airport, address or hotel"
+            />
           </column>
-          <column
-            ><h6>From</h6>
-            <input type="text" name="" id="" />
-          </column>
-          <column
-            ><h6>Until</h6>
-            <input type="text" name="" id=""
-          /></column>
+          <row class="jcb aic">
+            <column
+              ><h6>From</h6>
+              <input type="date" name="" id="" class="inv my-1" />
+            </column>
+            <img
+              src="svgs/rightArrow.svg"
+              alt=""
+              style="width: 24px; height: 24px; margin: 0 8px"
+            />
+            <column
+              ><h6>Until</h6>
+              <input type="date" name="" id="" class="inv my-1"
+            /></column>
+          </row>
         </row>
-        <column>
+        <column
+          class="jcc aic pc"
+          style="
+            background-color: #33d646;
+            height: 100%;
+            width: 100px;
+            border-radius: 0 50px 50px 0px;
+          "
+        >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24px"
-            height="24px"
+            width="23"
+            height="24"
+            viewBox="0 0 23 24"
             fill="none"
-            viewBox="0 0 24 24"
-            aria-labelledby="searchIconLabel"
-            class="seo-pages-1iuz9hb"
-            role="img"
-            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill="#121214"
-              d="M20.75 21.52a.62.62 0 0 1-.44-.18l-6.11-6.11a.63.63 0 0 1-.18-.45c0-.17.07-.33.19-.45l.08-.07c2.51-2.51 2.51-6.61-.01-9.12-2.52-2.52-6.62-2.52-9.13 0-2.52 2.52-2.52 6.62 0 9.13a6.47 6.47 0 0 0 6.29 1.66c.34-.09.68.1.77.44.09.33-.1.68-.44.77-2.67.74-5.55-.02-7.51-1.98-3-3.01-3-7.9 0-10.9s7.9-3.01 10.9 0c2.88 2.88 3 7.5.35 10.52l5.68 5.68c.24.24.24.64 0 .88a.62.62 0 0 1-.44.18"
-            ></path></svg
-        ></column>
+              d="M0.6 10.1671C0.6 15.0497 4.53439 18.9841 9.41707 18.9841C14.2997 18.9841 18.2341 15.0497 18.2341 10.1671C18.2341 5.28439 14.2997 1.35 9.41707 1.35C4.53439 1.35 0.6 5.28439 0.6 10.1671ZM2.69493 10.1671C2.69493 6.43844 5.68844 3.44493 9.41707 3.44493C13.1457 3.44493 16.1392 6.43844 16.1392 10.1671C16.1392 13.8957 13.1457 16.8892 9.41707 16.8892C5.68844 16.8892 2.69493 13.8957 2.69493 10.1671Z"
+              fill="white"
+              stroke="white"
+              stroke-width="0.8"
+            />
+            <path
+              d="M15.9686 15.2367L15.6858 14.9538L15.4029 15.2367L14.4874 16.1522L14.2046 16.435L14.4874 16.7179L20.3017 22.5321L20.5845 22.815L20.8674 22.5321L21.7829 21.6166L22.0657 21.3338L21.7829 21.0509L15.9686 15.2367Z"
+              fill="white"
+              stroke="white"
+              stroke-width="0.8"
+            />
+          </svg>
+        </column>
       </rectanglecard>
 
       <roundedCard
@@ -338,18 +365,19 @@
         style="max-width: 500px; padding: 8px"
       >
         <h6>Where</h6>
-        <select name="" id="">
-          <option value="test">test</option>
-        </select>
+        <input
+          type="text"
+          name=""
+          id=""
+          style="margin-top: 6px"
+          class="my-xs"
+          placeholder="City, airport, address or hotel"
+        />
         <h6>From</h6>
-        <select name="" id="">
-          <option value="test">test</option>
-        </select>
+        <input type="date" name="" id="" class="my-xs" />
         <h6>Until</h6>
-        <select name="" id="">
-          <option value="test">test</option>
-        </select>
-        <button>Search for cars</button>
+        <input type="date" name="" id="" class="my-xs" />
+        <largeButton class="my-xs">Search for cars</largeButton>
       </roundedCard>
     </bodycard>
 
