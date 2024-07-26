@@ -165,8 +165,11 @@ input {
   color: black;
   font-size: 12px;
   padding: 8px;
-  min-height: 32px;
+
   box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+.mobileINput {
+  min-height: 32px;
 }
 input::placeholder {
   color: #000000;
