@@ -10,6 +10,7 @@ largeButton {
   font-weight: 700;
   color: rgb(255, 255, 255);
   background-color: #33d646;
+  cursor: pointer;
 }
 
 squareButton {
@@ -139,18 +140,21 @@ rectanglecard {
   width: 750px;
   gap: 13px;
   border-radius: 85px;
-  box-sizing: border-box;
   height: 64px;
+  border: 0px solid #33d646;
+  transition: border 0.1s;
+}
+rectanglecard:hover {
+  border: 3px solid #33d646;
 }
 bodycard {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   padding: 13px;
   width: 100%;
   box-sizing: border-box;
-  height: 65vh;
+  min-height: 90vh;
 }
 navbar {
   height: 60px;

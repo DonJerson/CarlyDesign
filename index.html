@@ -298,8 +298,8 @@
       </profiletab>
     </navbar>
 
-    <bodycard class="jcc">
-      <rectanglecard class="shadow onDesktop">
+    <bodycard class="jcs aic onDesktop">
+      <rectanglecard class="shadow">
         <row class="jcb aic">
           <column style="width: 100%"
             ><h6>Where</h6>
@@ -359,28 +359,83 @@
           </svg>
         </column>
       </rectanglecard>
-
-      <roundedCard
-        class="shadow onMobile"
-        style="max-width: 500px; padding: 8px"
-      >
-        <h6>Where</h6>
-        <input
-          type="text"
-          name=""
-          id=""
-          style="margin-top: 6px"
-          class="my-xs"
-          placeholder="City, airport, address or hotel"
-        />
-        <h6>From</h6>
-        <input type="date" name="" id="" class="my-xs" />
-        <h6>Until</h6>
-        <input type="date" name="" id="" class="my-xs" />
-        <largeButton class="my-xs">Search for cars</largeButton>
-      </roundedCard>
     </bodycard>
+<column class="onMobile">
+      <column
+        class="aic jcc"
+        style="
+          background-image: url('img/carenportada.jpg');
+          height: 600px;
+          background-size: cover;
+          background-position: calc(30% - 100px) 0%;            padding: 16px;
+        "
+      >
+<column class="jcc aic" style="margin-bottom:6px;">
+        <h3 style="color: white;  ">Alquila El Mejor Carro</h3>
+        <p style="color: white; 
+        width: 80%; text-align: center;
+        
+        "
+        class="mt-sm"
+        >Para tus próximas vacaciones. Al mejor precio del mercado</p>
+</column>
+        <roundedCard
+          class="shadow onMobile"
+          style="
+            margin: 16px;
+            max-width: 500px;
 
+            background-color: white;
+            margin-bottom: 200px;
+          "
+        >
+          <h6>Where</h6>
+          <input
+            type="text"
+            name=""
+            id=""
+            style="margin-top: 6px"
+            class="my-xs"
+            placeholder="City, airport, address or hotel"
+          />
+          <h6>From</h6>
+          <input type="date" name="" id="" class="my-xs" />
+          <h6>Until</h6>
+          <input type="date" name="" id="" class="my-xs" />
+          <largeButton class="my-xs">Search for cars</largeButton>
+        </roundedCard>
+      </column>
+  <row class="jcc my-l">
+<a href="/listing.html">
+      <article class="car-card ">
+        <div class="car-image-wrapper">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/98d325a178ad03346612e7f6ead5de13ffcc948e6df10214d35cf19ac307ad64?apiKey=5cb2fb1eca5947a5aceaec37f3e2113b&&apiKey=5cb2fb1eca5947a5aceaec37f3e2113b"
+            class="car-image"
+            alt="Honda Civic 2019"
+          />
+          <span class="hot-label">HOT</span>
+          <div class="price-tag">US$ 35/dia</div>
+        </div>
+        <div class="car-details">
+          <h2 class="car-model">Honda Civic 2019</h2>
+          <div class="rating-wrapper">
+            <span class="rating-score">90%</span>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/47053f0dc89277c25b17c4c17a034d8437c1b6f219d3ddec69fa95e83b657fba?apiKey=5cb2fb1eca5947a5aceaec37f3e2113b&&apiKey=5cb2fb1eca5947a5aceaec37f3e2113b"
+              class="rating-icon"
+              alt=""
+            />
+          </div>
+        </div>
+      </article>
+</a>
+  </row>
+
+  </row>
+</column>
     <script>
       // Get the modal
       var modal = document.querySelector("body > modal");
