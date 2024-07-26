@@ -134,7 +134,7 @@ input[type="date"] {
 }
 input[type="date"] {
   -webkit-appearance: none;
-  min-height: 1.2em;
+  min-height: 2.2em;
   text-align: start;
 }
 /* Target WebKit browsers like Safari */
