@@ -142,6 +142,7 @@ input[type="date"] {
   background-color: white;
   padding: 8px;
   font-size: 12px;
+  min-height: 32px;
 }
 
 input::-webkit-date-and-time-value {
