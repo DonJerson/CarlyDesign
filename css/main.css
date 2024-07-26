@@ -129,7 +129,7 @@ a {
 /* Adjust the size of date input fields */
 input[type="date"] {
   width: 100% !important; /* Adjust the width as needed */
-
+  text-align: start;
   box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
 }
 input[type="date"] {
