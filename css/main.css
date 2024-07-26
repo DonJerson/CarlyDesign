@@ -138,7 +138,7 @@ input[type="date"] {
   color: black;
   min-height: 2.2em;
   display: block;
-  text-align: left;
+  text-align: start;
   background-color: white;
 }
 /* Target WebKit browsers like Safari */
