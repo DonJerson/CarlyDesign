@@ -124,4 +124,29 @@ a {
 }
 .fw {
   width: 100%;
+  box-sizing: border-box;
+}
+/* Adjust the size of date input fields */
+input[type="date"] {
+  width: 100%; /* Adjust the width as needed */
+  padding: 10px; /* Add padding for better appearance */
+  font-size: 16px; /* Increase font size for better readability */
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+/* Target WebKit browsers like Safari */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+  display: none; /* Remove the spin buttons */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 16px; /* Adjust the font size of the calendar picker indicator */
+}
+
+/* Optionally, add some styling for better appearance */
+input[type="date"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
 }
