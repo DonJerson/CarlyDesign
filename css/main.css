@@ -129,18 +129,12 @@ a {
 /* Adjust the size of date input fields */
 input[type="date"] {
   width: 100% !important; /* Adjust the width as needed */
-  text-align: left;
-  border-width: 1px;
+  text-align: start;
   box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
-}
-
-input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-clear-button {
-  display: none;
 }
 input[type="date"] {
   -webkit-appearance: none;
-  background-color: white;
+  border: 1px solid #000000; /* Add a border */
   color: black;
   min-height: 2.2em;
   text-align: start;
