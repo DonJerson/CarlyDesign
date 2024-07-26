@@ -130,6 +130,7 @@ a {
 input[type="date"] {
   width: 100% !important; /* Adjust the width as needed */
   text-align: start;
+  border-width: 1px;
   box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
 }
 input[type="date"] {
@@ -146,7 +147,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* Optionally, add some styling for better appearance */
 input[type="date"]:focus {
-  border-color: #007bff; /* Change border color on focus */
+  border-color: #000000; /* Change border color on focus */
   outline: none; /* Remove default outline */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
 }
