@@ -141,6 +141,7 @@ input[type="date"] {
   text-align: start;
   text-align: -webkit-left;
   background-color: white;
+  padding: 8px;
 }
 
 input::-webkit-date-and-time-value {
@@ -157,5 +158,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* Optionally, add some styling for better appearance */
 input[type="date"]:focus {
   border-color: #000000; /* Change border color on focus */
-  outline: none; /* Remove default outline */
+}
+input {
+  min-height: 2.2em;
+  border: 1px solid #000000; /* Add a border */
+  color: black;
+}
+input::placeholder {
+  color: #000000;
+  padding: 6px;
+  font-size: 12px;
 }
