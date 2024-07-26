@@ -136,12 +136,12 @@ input[type="date"] {
   -webkit-appearance: none;
   border: 1px solid #000000; /* Add a border */
   color: black;
-  min-height: 2.2em;
   display: block;
   text-align: start;
   text-align: -webkit-left;
   background-color: white;
   padding: 8px;
+  font-size: 12px;
 }
 
 input::-webkit-date-and-time-value {
@@ -160,12 +160,14 @@ input[type="date"]:focus {
   border-color: #000000; /* Change border color on focus */
 }
 input {
-  min-height: 2.2em;
   border: 1px solid #000000; /* Add a border */
   color: black;
+  font-size: 12px;
+  padding: 8px;
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
 }
 input::placeholder {
   color: #000000;
-  padding: 6px;
+
   font-size: 12px;
 }
