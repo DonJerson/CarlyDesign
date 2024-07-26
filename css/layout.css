@@ -160,7 +160,7 @@ bodycard {
 navbar {
   height: 60px;
   padding-left: 12px;
-  padding-right: 20px;
+  padding-right: 12px;
   display: flex;
   background-color: rgb(255, 255, 255);
   border-bottom-style: solid;
