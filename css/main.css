@@ -139,6 +139,7 @@ input[type="date"] {
   min-height: 2.2em;
   display: block;
   text-align: start;
+  text-align: -webkit-left;
   background-color: white;
 }
 /* Target WebKit browsers like Safari */
