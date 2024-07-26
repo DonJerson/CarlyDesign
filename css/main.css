@@ -133,7 +133,7 @@ input[type="date"] {
   box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
 }
 input[type="date"] {
-  -webkit-appearance: textfield;
+  -webkit-appearance: none;
 }
 /* Target WebKit browsers like Safari */
 
